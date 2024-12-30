@@ -18,7 +18,7 @@ struct NODE
 void preorder(NODE* value){
     if(value == nullptr)
         return;
-        else{
+    else{
             cout<<value->data<<" ";
             preorder(value->left);
             preorder(value->right);
