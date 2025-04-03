@@ -22,7 +22,7 @@ void postorder(Node* value){
         postorder(value->right);
         cout<<value->data<<" ";
     }
-
+    
 }
 
 int main()
@@ -41,5 +41,4 @@ int main()
     cout<<"Postorder Traversal: ";
     postorder(root);
     return 0;
-
 }
